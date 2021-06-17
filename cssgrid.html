@@ -1,0 +1,106 @@
+body{
+    padding: 0%;
+    margin:0%;
+}
+.contenedor{
+display: grid;
+grid-template-areas: 
+'header header header header header'
+'columna main main main main' 
+'columna rec rec rec2 rec2'
+'columna cuad cuad1 cuad2 cuad3'
+'columna cuadg cuadg cuadg cuadg'
+'columna cuaden cuaden  cuaden2 cuaden2'
+'columna cuadfin cuadfin cuadfin cuadfin'
+'columna cuadfin2 cuadfin2 cuadfin2 cuadfin2';
+
+background-color: blueviolet;
+}
+.contenedor div{
+background-color: aquamarine;
+padding: 10px;
+border: solid 2px black;
+
+}
+.header{
+grid-area: header;
+height: 40px;
+
+}
+.recizq{
+grid-area:columna;
+width: 40vh;
+}
+.main{
+grid-area: main;
+margin-left: 28px;
+height: 260px;
+width: 153vh;
+margin-top:200px;
+}
+.footer{
+grid-area: rec;
+margin-left: 28px;
+margin-top: 25px;
+height: 75vh;
+}
+.rec{
+grid-area: rec2;
+margin-left: 28px;
+margin-top: 25px;
+height: 75vh;
+}
+.cuad{
+grid-area: cuad;
+  margin-left: 28px;
+margin-top: 25px;
+height: 30vh;
+}
+.cuad1{
+grid-area: cuad1;
+margin-left: 28px;
+margin-top: 25px;
+height: 30vh;
+}
+.cuad2{
+grid-area: cuad2;
+margin-left: 28px;
+margin-top: 25px;
+height: 30vh;
+}
+.cuad3{
+grid-area: cuad3;
+margin-left: 28px;
+margin-top: 25px;
+height: 30vh;
+}
+.cuadg{
+grid-area: cuadg;
+margin-left: 28px;
+margin-top: 25px;
+height: 95vh;
+}
+.cuaden{
+ grid-area: cuaden;
+margin-left: 28px;
+margin-top: 25px;
+height: 80vh;
+}
+.cuaden2{
+grid-area: cuaden2;
+margin: 2px;
+margin-left: 28px;
+margin-top: 25px;
+height: 80vh;
+}
+.cuadfin{
+grid-area: cuadfin;
+height: 80px;
+margin-left: 28px;
+margin-top: 25px;
+}
+.cuadfin2{
+grid-area: cuadfin2;
+height: 80px;
+margin-left: 28px;
+}
